@@ -1,0 +1,6 @@
+[build]
+command = "PLATFORM=netlify pnpm run build"
+publish = "dist/"
+
+[build.environment]
+PLATFORM = "netlify"

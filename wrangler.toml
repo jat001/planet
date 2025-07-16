@@ -1,0 +1,17 @@
+name = "planet"
+main = "./dist/_worker.js/index.js"
+compatibility_date = "2025-07-15"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+binding = "ASSETS"
+directory = "./dist"
+
+[observability]
+enabled = true
+
+[placement]
+mode = "smart"
+
+[vars]
+PLATFORM = "cloudflare"
